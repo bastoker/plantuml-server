@@ -3,7 +3,7 @@ name: Java CI
 on: [push]
 
 jobs:
-  build:
+  build-plantuml-fork:
     name: My Job Name
     runs-on: ubuntu-latest
 
