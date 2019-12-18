@@ -9,6 +9,13 @@ PlantUML Server is a web application to generate UML diagrams on-the-fly.
 
 To know more about PlantUML, please visit http://plantuml.com/.
 
+Extra Features
+==============
+This fork has support for server side redirects for links in PNG-rendered diagrams. 
+Primary Use Case for this feature is using PNGs with hyperlinks within the context of a wiki like Confluence or GitLab Wiki.
+Sometimes it is not feasible to use the client side map, and a `img` html tag with the `ismap` attribute, linking to the new `proxymap` Servlet, will be an alternative for this.
+
+
 
 Requirements
 ============
