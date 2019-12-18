@@ -14,4 +14,10 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
+    - uses: actions/cache@v1
+      with:
+        path: ~/.m2/repository
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        restore-keys: |
+          ${{ runner.os }}-maven-
       run: mvn -B install --file pom.xml
