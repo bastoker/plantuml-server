@@ -4,7 +4,7 @@
   <groupId>org.sourceforge.plantuml</groupId>
   <artifactId>plantumlservlet</artifactId>
   <version>1-SNAPSHOT</version>
-  <name>PlantUML Servlet</name>
+  <name>PlantUML Servlet with proxymap</name>
   <packaging>war</packaging>
   <build>
     <finalName>plantuml</finalName>
